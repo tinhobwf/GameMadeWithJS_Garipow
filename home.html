@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/garipersona.png" type="image/x-icon">
+    <title>Garipow</title>
+</head>
+<body>
+    <section class="container-all">
+        <div class="game">
+            <div id="score">0</div>
+            <div class="vida">
+                <div class="corazao"></div>
+                <div id="life"></div>
+            </div>
+            <div class="itemLixo"></div>
+            <div class="chao"></div>
+            <div class="persona"></div>
+            <button class="start" onclick="gerarLixo()"></button>
+            <button class="restart" onclick="gerarLixo()"></button>
+            <div class="boss"></div>
+        </div>
+
+        <div class="placar">
+            <h1>Placar</h1>
+                <ul class="placarNomes">
+
+                </ul>
+        </div>
+    </section>
+    
+    <script src="custom.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
